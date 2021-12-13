@@ -1,0 +1,17 @@
+web3
+eth account
+eth.accounts
+eth.getBalance(eth.accounts[0])
+miner.start()
+miner.stop()
+eth.getBalance(eth.accounts[0])
+eth.getBalance(eth.accounts[1])
+eth.coinbase
+personalAccount.unlock(eth.accounts[0])
+eth.sendTransaction({to:eth.accounts[1],from:eth.accounts[0],value:100})
+eth.getBalance{eth.accounts[1])
+eth.getBalance(eth.accounts[1])
+miner.start()
+miner.stop()
+eth.getBalance{eth.accounts[1])
+eth.getBalance(eth.accounts[1])
